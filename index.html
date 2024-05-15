@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/5545cbbc2d.js" crossorigin="anonymous"></script>
+<title>RedStore</title>
+</head>
+<body>
+
+<div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="Menuitems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="./images/cart.png" width="30px" height="30px"></a>
+            <img src="./images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h1>Give Your Workout <br> A New Style!</h1>
+                <p>
+                    Success isn't always about greatness. It's about 
+                    consistency. consistent <br> hard work gains success. Greatness
+                    will come. </p>
+                    <a href="" class="btn">Explore now &#8594;</a>
+            </div>
+            <div class="col-2">
+                <img src="./images/image1.png">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ------featured categories----- -->
+<div class="categories">
+    <div class="small-container">
+<div class="row">
+        <div class="col-3">
+            <img src="./images/category1.jpg">
+        </div>
+        <div class="col-3">
+            <img src="./images/category2.jpg">
+        </div>
+        <div class="col-3">
+            <img src="./images/category3.jpg">
+        </div>
+    </div>
+</div>
+
+<!-- ------featured Products----- -->
+<div class="small-container">
+    <h2 class="title">Featured Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <a href="details.html"><img src="./images/product1.jpg"></a>
+            <a href="details.html"><h4>Red Printed T-shirt</h4></a>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="./images/product2.jpg">
+            <h4>Sport Shoes</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <p>$150.00</p>
+        </div>
+        <div class="col-4">
+            <img src="./images/product3.jpg">
+            <h4>Grey Trackpant</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+                
+            </div>
+            <p>$100.00</p>
+        </div>
+        <div class="col-4">
+            <img src="./images/product4.jpg">
+            <h4>Blue T-shirt</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+    </div>
+    <h2 class="title">Latest Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="./images/product5.jpg">
+            <h4>Grey Hight-Top Casual Shoes</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="./images/product6.jpg">
+            <h4>Black T-shirt</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <p>$150.00</p>
+        </div>
+        <div class="col-4">
+            <img src="./images/product7.jpg">
+            <h4>Socks</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+                
+            </div>
+            <p>$100.00</p>
+        </div>
+        <div class="col-4">
+            <img src="./images/product8.jpg">
+            <h4>Fossil Wrist Watch</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="./images/product9.jpg">
+                <h4>Roadster Watch</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/product10.jpg">
+                <h4>Sport Shoes</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>$150.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/product11.jpg">
+                <h4>Casual Shoes</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    
+                </div>
+                <p>$100.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/product12.jpg">
+                <h4>Track Pant</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- -----offer----- -->
+<div class="offer">
+    <div class="small-container-offer">
+        <div class="row">
+            <div class="col-2">
+                <img src="./images/exclusive.png" class="offer-img">
+            </div>
+            <div class="col-2">
+                <p>Exclusive Available on RedStore</p>
+                <h1>Redmi Smart Band Pro</h1>
+                <small>Xiaomi has launched the Redmi Smart Band Pro alongside the Redmi Note 11 and Redmi Note 11S. 
+                    Based on its name, this is clearly positioned as more capable than the Redmi Smart Band. 
+                    The new Redmi Smart Band Pro brings with it many features that are in demand, such as an AMOLED display, SpO2 and stress tracking,
+                    and the ability to track multiple types of workouts.With the improved feature list, the price has gone up too,but only a bit.
+                    </small>
+                    <a href="" class="btn">Buy Now &#8594</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- -----testimonial----- -->
+<div class="testimonial">
+    <div class="small-container">
+        <div class="col-3">
+            <i class="fa-solid fa-quote-left"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Fugiat vel, 
+                qui accusamus dolorum quidem.</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+                <img src="./images/user1.png">
+                <h3>Olivia</h3>
+        </div>
+        <div class="col-3">
+            <i class="fa-solid fa-quote-left"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Fugiat vel, 
+                qui accusamus dolorum quidem.</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+                <img src="./images/user2.png">
+                <h3>Noah</h3>
+        </div>
+        <div class="col-3">
+            <i class="fa-solid fa-quote-left"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Fugiat vel,
+                qui accusamus dolorum quidem.</p>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+                <img src="./images/user3.png">
+                <h3>Amelia</h3>
+        </div>
+    </div>
+</div>
+
+
+<!-- -----brands----- -->
+
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="./images/logogodrej.png">
+            </div>
+            <div class="col-5">
+                <img src="./images/logococacola.png">
+            </div>
+            <div class="col-5">
+                <img src="./images/logooppo.png">
+            </div>
+            <div class="col-5">
+                <img src="./images/logopaypal.png">
+            </div>
+            <div class="col-5">
+                <img src="./images/logophilips.png">
+            </div>
+        </div>
+    </div>
+</div> 
+
+<!-- ----footer----- -->
+<div class="footer">
+    <div class="container-footer">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="./images/playstore.png">
+                    <img src="./images/appstore.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="./images/logowhite.png">
+                <p>Our purpose is to sustainably make the pleasure and benifits of sports accessible to the many.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            <div class="footer-col-4">
+                <br>
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div> 
+<div class="footer-bottom">
+    <p>&copy; 2023 RedStore.com | Designed by Anand Pratap Singh</p>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
